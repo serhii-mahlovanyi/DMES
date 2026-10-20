@@ -321,7 +321,7 @@ button{font-family:inherit;color:inherit}
 .face .ic svg{width:34px;height:34px;color:#fff}
 
 /* FINAL */
-#s10{align-items:center;justify-content:center}
+#s11{align-items:center;justify-content:center}
 .fin{width:1240px;border-radius:36px;background:var(--ink);color:#fff;padding:70px 76px;position:relative;overflow:hidden;box-shadow:var(--shadow-lg)}
 .fin::before{content:"";position:absolute;inset:0;background:
   radial-gradient(circle at 92% 85%,transparent 0 120px,rgba(255,255,255,.06) 121px 123px,transparent 124px),
@@ -537,7 +537,7 @@ body.mob .face small{font-size:11px}
 body.mob .face .ic{width:42px;height:42px;border-radius:12px}
 body.mob .face .ic svg{width:22px;height:22px}
 /* final */
-body.mob #s10{display:block;border-bottom:0;padding-bottom:60px}
+body.mob #s11{display:block;border-bottom:0;padding-bottom:60px}
 body.mob .fin{width:auto;padding:30px 22px;border-radius:24px}
 body.mob .fin .a{font-size:20px}
 body.mob .fin .b{font-size:30px}
@@ -559,6 +559,15 @@ body.mob #lbody .lp.lead{font-size:20px}
 body.mob #lbody .lp.kick{font-size:17px}
 body.mob #lbody .lcyc{font-size:14px;margin:0 8px 12px}
 body.mob #lbody .dossier{font-size:14px}
+.s10c{display:flex;flex-direction:column;justify-content:center;padding:34px 40px}.s10c .k{font-size:18px;margin-bottom:26px}.s10c .plist{gap:30px}.s10c .plist li{font-size:28px}
+body.mob .s10c{padding:16px 18px}body.mob .s10c .k{font-size:12px;margin-bottom:12px}body.mob .s10c .plist{gap:10px}body.mob .s10c .plist li{font-size:16px}
+.gain{margin-left:auto;padding:8px 16px;border-radius:999px;background:var(--green-bg);border:1px solid var(--green-line);color:var(--green-d);font:600 17px "Space Grotesk","Inter",sans-serif;white-space:nowrap}
+body.mob .gain{margin-left:0;font-size:11.5px;padding:5px 10px;white-space:normal}
+.tk{display:flex;align-items:center;gap:22px;margin-top:18px;padding:18px 28px;border-radius:18px;background:var(--ink,#111418);color:#fff}.tk span{flex:none;font:600 14px "Space Grotesk","Inter",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#7ee2a8}.tk p{margin:0;font:700 27px/1.25 "Inter",sans-serif}.tk.tkr{padding:14px 24px}.tk.tkr p{font-size:23px}
+body.mob .tk{gap:10px;padding:12px 14px;flex-direction:column;align-items:flex-start}body.mob .tk span{font-size:10px}body.mob .tk p,body.mob .tk.tkr p{font-size:16px}
+.vsbig .was b,.vsbig .will b{font-size:34px}.vsbig>div{padding:22px 26px}
+#s11 .fin .c>div:first-child b{display:inline-block;font-size:40px;line-height:1.15;margin-bottom:10px;color:#fff}
+body.mob #s11 .fin .c>div:first-child b{font-size:22px}body.mob .vsbig .was b,body.mob .vsbig .will b{font-size:20px}
 .lfab{display:none}
 body.mob .lfab{display:inline-flex;position:fixed;right:14px;bottom:16px;z-index:150;align-items:center;gap:8px;border:none;border-radius:999px;background:var(--ink);color:#fff;padding:12px 18px;font:600 14px "Space Grotesk","Inter",sans-serif;box-shadow:0 10px 30px rgba(20,28,44,.3);cursor:pointer}
 body.mob .lfab svg{width:18px;height:18px}
@@ -575,13 +584,13 @@ body.mob .lfab svg{width:18px;height:18px}
   <div class="hero">
     <div class="hero-top">
       <div class="hero-org">Міністерство оборони України · Департамент військової освіти і науки</div>
-      <h1 class="hero-title">Військова освіта не повинна наздоганяти війну. <span>Вона повинна передбачати її.</span></h1>
+      <h1 class="hero-title">Система, що вчиться <span>швидше за війну</span></h1>
     </div>
     <div class="hero-body">
-      <div class="who"><b>Магльований Сергій Іванович</b>Підполковник · Бачення трансформації політики у сфері підготовки, військової освіти та науки</div>
+      <div class="who"><b>Магльований Сергій Іванович</b>Підполковник · Бачення політики підготовки, військової освіти і науки</div>
       <div class="stats">
-        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16M4 12h16M4 18h10"/></svg><b>4 рішення</b></span>
-        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg><b>1 цикл</b></span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16M4 12h16M4 18h10"/></svg><b>5 пропозицій</b></span>
+        
       </div>
     </div>
   </div>
@@ -599,26 +608,28 @@ body.mob .lfab svg{width:18px;height:18px}
 <!-- 1 · LOGIC -->
 <section class="slide" id="s1" data-name="Логіка">
   <div class="head"><span class="where">Логіка виступу</span><span class="lbl">Підготовка · Освіта · Наука</span></div>
-  <h2 class="title">Чотири рішення і один цикл для науки</h2>
+  <h2 class="title">Одне питання. П'ять пропозицій.</h2>
   <div class="core-q card">
     <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 13l4-4"/><path d="M3.3 17a9 9 0 1 1 17.4 0"/><circle cx="12" cy="13" r="1.2" fill="currentColor"/></svg></span>
-    <div><b>Наскільки швидко система вчиться?</b><span>Кожне рішення відповідає на одне це питання</span></div>
+    <div><b>Скільки часу минає від уроку на фронті – до засвоєння курсантом?</b><span>Не курси. Не дипломи. Не кількість випускників.</span></div>
   </div>
   <div class="map grow">
-    <div class="mcard card zoom"><span class="idx">1</span><h3>Довіра і делегування</h3><p>Сержант – партнер офіцера. Повноваження – вниз.</p></div>
-    <div class="mcard card zoom"><span class="idx">2</span><h3>Швидкість від бою до аудиторії</h3><p>Люди передають досвід швидше за документи.</p></div>
-    <div class="mcard card zoom"><span class="idx">3</span><h3>Раннє виявлення потенціалу</h3><p>Знати, кого потребуватимемо через 20 років.</p></div>
-    <div class="mcard card zoom"><span class="idx">4</span><h3>Мобільність експертизи</h3><p>Фахівець – не власність посади.</p></div>
-    <div class="mcard card zoom sci"><span class="idx">∞</span><h3>Наука від проблеми</h3><p>Замкнений цикл: від проблеми спроможності до перевіреного рішення.</p></div>
+    <div class="mcard card zoom"><span class="idx">1</span><h3>Довіра</h3><p>Хто ухвалює рішення в бою</p></div>
+    <div class="mcard card zoom"><span class="idx">2</span><h3>Швидкість</h3><p>Як швидко досвід доходить до аудиторії</p></div>
+    <div class="mcard card zoom"><span class="idx">3</span><h3>Потенціал</h3><p>Як система бачить потенціал людини</p></div>
+    <div class="mcard card zoom"><span class="idx">4</span><h3>Мобільність</h3><p>Як зберегти знання, коли люди йдуть</p></div>
+    <div class="mcard card zoom sci"><span class="idx">5</span><h3>Наука</h3><p>Як наука розв’язує реальні проблеми війська</p></div>
   </div>
+  <div class="tk" data-b="2"><span>Висновок</span><p>Важливо не скільки ми навчили, а як швидко ми навчилися.</p></div>
 </section>
 
 <!-- 2 · PATH -->
 <section class="slide" id="s2" data-name="Шлях">
-  <div class="head"><span class="where">Хто перед вами</span><span class="lbl">Система – з кожного її рівня</span></div>
-  <h2 class="title">Я бачив цю систему з кожного боку: як той, кого вона готувала, і як той, хто готував</h2>
+  <div class="head"><span class="where">Звідки цей погляд</span><span class="lbl">Система – з різних її рівнів</span></div>
+  <h2 class="title">Погляд на систему з різних боків</h2>
   <div class="stairs" id="stairs" style="margin-top:14px"></div>
   <div class="detail card" id="detail" data-b="1"></div>
+  <div class="tk tkr" data-b="7"><span>Висновок</span><p>Досвід, який не передали, система фактично втратила.</p></div>
 </section>
 
 <!-- 3 · GAP -->
@@ -645,22 +656,23 @@ body.mob .lfab svg{width:18px;height:18px}
       <div class="tap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11V5a2 2 0 0 1 4 0v6M13 10a2 2 0 0 1 4 0v2M17 11a2 2 0 0 1 4 0v4a6 6 0 0 1-6 6h-2a6 6 0 0 1-5-3l-2.5-4a1.5 1.5 0 0 1 2.5-1.6L9 14"/></svg>Перемкніть «Сьогодні / Мета»</div>
     </div>
   </div>
-  <div class="band red" style="margin-top:20px" data-b="3"><p>Війна змінюється швидше, ніж документи. Питання – наскільки швидко система вчиться.</p></div>
+  <div class="band red" style="margin-top:20px" data-b="3"><p>Питання не в тому, чи правильну систему ми побудували. А в тому, чи працює вона в темпі війни.</p></div>
 </section>
 
 <!-- 4 · DELEGATION -->
 <section class="slide" id="s4" data-name="Рішення 1">
-  <div class="head"><span class="where">Рішення 1 з 4</span><span class="lbl">Довіра і делегування</span></div>
+  <div class="head"><span class="where">Пропозиція 1 із 5</span><span class="lbl">Довіра · mission command</span><span class="gain">Ефект: швидша адаптація підрозділів · сумісність із НАТО</span></div>
   <div class="row grow">
     <div class="col" style="flex:1.2">
-      <div class="quote card zoom" data-b="1"><p>Сильний сержант не є конкурентом офіцеру. Він його найближчий професійний партнер.</p><p>Таку культуру неможливо запровадити наказом. Її можна лише вбудувати в освіту.</p></div>
+      <div class="quote card zoom" data-b="1"><p>Сильний сержант не є конкурентом офіцеру. Він його найближчий професійний партнер.</p><p>Довіру неможливо запровадити наказом. Її формують – ще під час навчання.</p></div>
       <div class="prop card zoom" data-b="3">
-        <div class="k">Пропоную</div>
+        <div class="k">Пропозиції</div>
         <ol class="plist">
-          <li><span><b>Делегування – наскрізний результат навчання</b> на всіх рівнях: не тема лекції, а те, що оцінюється на виході</span></li>
-          <li><span><b>Спільне навчання сержантів і офіцерів:</b> партнерству вчаться разом</span></li>
+          <li><span><b>Mission command</b> – обов’язковий результат навчання на кожному рівні</span></li>
+          <li><span><b>Офіцери й сержанти вчаться разом</b> – ще в аудиторії</span></li>
         </ol>
       </div>
+      <div class="tk tkr" data-b="4"><span>Висновок</span><p>Делегування – не декларація, а результат навчання.</p></div>
     </div>
     <div class="card dia" style="flex:1" data-b="2">
       <div class="vax up"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 19V5M6 11l6-6 6 6"/></svg><div class="vbar"><i></i></div><div class="vl">Відповідальність – вгору</div></div>
@@ -670,7 +682,7 @@ body.mob .lfab svg{width:18px;height:18px}
         <div class="lev">Тактичний рівень</div>
         <div class="lev">Сержантські курси</div>
         <div class="lev">Базова підготовка</div>
-        <div class="toggles" id="tgs"><button class="tg" data-t="0"><i></i>Компетентність</button><button class="tg" data-t="1"><i></i>Обстановка</button><button class="tg" data-t="2"><i></i>Довіра</button></div>
+        <div class="toggles" id="tgs"><button class="tg" data-t="0"><i></i>Підготовка</button><button class="tg" data-t="1"><i></i>Обстановка</button><button class="tg" data-t="2"><i></i>Довіра</button></div>
       </div>
       <div class="vax dn"><div class="vl">Повноваження – вниз</div><div class="vbar"><i id="authBar"></i></div><svg viewBox="0 0 24 24" fill="none" stroke="var(--green-d)" stroke-width="2.4"><path d="M12 5v14M6 13l6 6 6-6"/></svg></div>
     </div>
@@ -679,57 +691,57 @@ body.mob .lfab svg{width:18px;height:18px}
 
 <!-- 5 · TWO CHANNELS -->
 <section class="slide" id="s5" data-name="Рішення 2">
-  <div class="head"><span class="where">Рішення 2 з 4</span><span class="lbl">Швидкість перетворення досвіду на знання</span></div>
-  <h2 class="title">Люди передають досвід швидше, ніж система встигає його формалізувати</h2>
+  <div class="head"><span class="where">Пропозиція 2 із 5</span><span class="lbl">Швидкість досвіду</span><span class="gain">Ефект: результат, який можна виміряти і показати</span></div>
+  <h2 class="title">Люди передають досвід швидше, ніж документи</h2>
   <div class="lanes card" data-b="1">
     <div style="display:flex;justify-content:space-between;align-items:center">
-      <div class="sub" style="font-size:21px">Доктрина потрібна, щоб кодифікувати досвід. Але не може бути <b>єдиним</b> каналом його передачі.</div>
+      <div class="sub" style="font-size:21px">Шляхи не конкурують. Вони мають працювати <b>паралельно</b>.</div>
       <button class="btn" id="runLanes"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4l13 8-13 8z"/></svg>Запустити</button>
     </div>
-    <div class="lane"><div class="ll">Через документи<small>кодифікація · необхідна, але повільна</small></div>
+    <div class="lane"><div class="ll">Через документи<small>закріплює перевірені уроки · але повільно</small></div>
       <div class="ltrack"><div class="lrail" id="railA"></div><span class="ldot" id="dotA"></span></div></div>
-    <div class="lane fast"><div class="ll">Через людей<small>викладання · наставництво · розбір кейсів</small></div>
+    <div class="lane fast"><div class="ll">Через людей<small>бойові викладачі · збір уроків у підрозділах</small></div>
       <div class="ltrack"><div class="lrail" id="railB"></div><span class="ldot" id="dotB"></span></div></div>
   </div>
   <div class="row" style="margin-top:20px" data-b="2">
-    <div class="prop card zoom" style="flex:1"><div class="k">Пропоную</div><ol class="plist"><li><span><b>Прибрати бар'єри</b>, які заважають бойовим офіцерам і сержантам викладати й наставляти</span></li></ol></div>
-    <div class="metric card zoom" style="flex:1.15"><span class="clock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/></svg></span><div><div class="t">Показник: час від уроку на фронті до заняття в аудиторії</div><div class="s">Те, що не вимірюється, не прискорюється.</div></div></div>
+    <div class="prop card zoom" style="flex:1"><div class="k">Пропозиції</div><ol class="plist"><li><span><b>Стимули</b> для бойових фахівців</span></li><li><span><b>Викладання</b> – визнаний етап кар’єри</span></li><li><span><b>Методична підготовка</b> бойових викладачів</span></li></ol></div>
+    <div class="metric card zoom" style="flex:1.15"><span class="clock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/></svg></span><div><div class="t">Показник: час від уроку в бою до заняття в аудиторії</div><div class="s">Фронт → аналіз → аудиторія. Саме це покаже, чи система прискорюється.</div></div></div>
   </div>
 </section>
 
 <!-- 6 · POTENTIAL -->
 <section class="slide" id="s6" data-name="Рішення 3">
-  <div class="head"><span class="where">Рішення 3 з 4</span><span class="lbl">Раннє виявлення потенціалу</span></div>
-  <h2 class="title">Не лише навчати тих, кого направили, а виявляти тих, хто здатен на більше</h2>
+  <div class="head"><span class="where">Пропозиція 3 із 5</span><span class="lbl">Раннє виявлення потенціалу</span><span class="gain">Ефект: кадровий резерв і утримання людей</span></div>
+  <h2 class="title">Не лише навчати тих, кого направили, а й виявляти тих, хто здатен на більше</h2>
   <div class="pflow grow" style="margin-top:10px">
     <div class="pcol" data-b="1">
-      <div class="sec">Що бачимо в людині</div>
+      <div class="sec">Що є в людині</div>
       <div class="cgrid">
-        <div class="ctile zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h9M8 3v2M6 5c0 4 3 7 7 8M11 5c-1 4-4 7-7 8M13 21l4-9 4 9M14.5 18h5"/></svg>Мови</div>
+        <div class="ctile zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h9M8 3v2M6 5c0 4 3 7 7 8M11 5c-1 4-4 7-7 8M13 21l4-9 4 9M14.5 18h5"/></svg>Іноземні мови</div>
         <div class="ctile zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/></svg>Цивільна освіта</div>
-        <div class="ctile zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="5" width="14" height="14" rx="2"/><path d="M9 1v4M15 1v4M9 19v4M15 19v4M1 9h4M1 15h4M19 9h4M19 15h4"/></svg>Наука і техніка</div>
+        <div class="ctile zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="5" width="14" height="14" rx="2"/><path d="M9 1v4M15 1v4M9 19v4M15 19v4M1 9h4M1 15h4M19 9h4M19 15h4"/></svg>Технічні знання</div>
         <div class="ctile zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 6 6 1-4.5 4 1 6.5L12 16l-5.5 3.5 1-6.5L3 9l6-1z"/></svg>Бойовий досвід</div>
-        <div class="ctile zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></svg>Спеціалізація</div>
-        <div class="ctile zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>Нові середовища</div>
+        <div class="ctile zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></svg>Схильності</div>
+        <div class="ctile zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>Амбіції</div>
       </div>
     </div>
     <div class="flowar" data-b="2"><svg viewBox="0 0 64 40"><path d="M2 20H56M46 10l12 10-12 10"/></svg></div>
     <div class="pcol" data-b="2">
       <div class="sec">Карта компетентностей</div>
       <div class="quad">
-        <div class="qd zoom k"><b>Є</b>вже в Силах оборони</div>
-        <div class="qd zoom r"><b>Бракує</b>критично</div>
-        <div class="qd zoom g"><b>Розвивати</b>всередині</div>
-        <div class="qd zoom"><b>Залучати</b>ззовні</div>
+        <div class="qd zoom k"><b>Вміє</b>уже зараз</div>
+        <div class="qd zoom r"><b>Схильний</b>до чого</div>
+        <div class="qd zoom g"><b>Прагне</b>якого розвитку</div>
+        <div class="qd zoom"><b>Шлях</b>після випуску</div>
       </div>
     </div>
     <div class="flowar" data-b="3"><svg viewBox="0 0 64 40"><path d="M2 20H56M46 10l12 10-12 10"/></svg></div>
     <div class="pcol" data-b="3">
-      <div class="sec">Траєкторії розвитку</div>
-      <div class="corps zoom">Командний <span>корпус</span></div>
-      <div class="corps zoom">Штабний <span>корпус</span></div>
-      <div class="corps zoom">Науковий <span>корпус</span></div>
-      <div class="corps zoom">Інструкторський <span>корпус</span></div>
+      <div class="sec">Куди спрямувати</div>
+      <div class="corps zoom">Університет <span>країни-партнера</span></div>
+      <div class="corps zoom">Міжнародний <span>штаб</span></div>
+      <div class="corps zoom">Військова <span>наука</span></div>
+      <div class="corps zoom">Викладання <span>і наставництво</span></div>
     </div>
   </div>
   <div class="row" style="margin-top:18px;align-items:stretch" data-b="4">
@@ -739,16 +751,16 @@ body.mob .lfab svg{width:18px;height:18px}
       <div class="pt" style="transition-delay:.5s"><b>10</b><span>років</span></div><div class="ln"><i style="transition-delay:1s"></i></div>
       <div class="pt" style="transition-delay:1s"><b>20</b><span>років</span></div>
     </div>
-    <div class="band" style="flex:1.1;display:flex;align-items:center"><p style="font-size:24px">Яких професіоналів потребуватимуть Сили оборони – і умови для їх появи створювати вже сьогодні.</p></div>
+    <div class="band" style="flex:1.1;display:flex;align-items:center"><p style="font-size:24px">Це вже не випадковий розподіл кадрів. <b>Це управління потенціалом.</b></p></div>
   </div>
 </section>
 
 <!-- 7 · MOBILITY -->
 <section class="slide" id="s7" data-name="Рішення 4">
-  <div class="head"><span class="where">Рішення 4 з 4</span><span class="lbl">Мобільність експертизи</span></div>
+  <div class="head"><span class="where">Пропозиція 4 із 5</span><span class="lbl">Мобільність експертизи</span><span class="gain">Ефект: система стає стійкішою</span></div>
   <div class="row grow">
     <div class="col" style="flex:.9">
-      <div class="quote card zoom" data-b="1"><p>Сильний фахівець не повинен бути «власністю» посади, частини чи установи.</p></div>
+      <div class="quote card zoom" data-b="1"><p>Проблема не в тому, що люди змінюють посади. А в тому, що система не завжди зберігає їхні знання.</p></div>
       <div class="card" style="padding:24px 28px" data-b="2">
         <div class="sec">Перевірка системи</div>
         <div style="display:flex;flex-direction:column;gap:14px;align-items:flex-start">
@@ -786,21 +798,22 @@ body.mob .lfab svg{width:18px;height:18px}
 
 <!-- 8 · SCIENCE -->
 <section class="slide" id="s8" data-name="Наука">
-  <div class="head"><span class="where">Військова наука</span><span class="lbl">Замкнений цикл</span></div>
+  <div class="head"><span class="where">Пропозиція 5 із 5</span><span class="lbl">Замкнений цикл</span><span class="gain">Ефект: наука, що дає рішення для війська</span></div>
   <div class="row grow">
     <div class="col" style="flex:1">
-      <h2 class="title" style="font-size:44px" data-b="1">Починати не з «що ми можемо дослідити», а з «яку проблему спроможності треба вирішити»</h2>
+      <h2 class="title" style="font-size:42px" data-b="1">Не «що ми можемо дослідити», а «яку проблему війська треба розв’язати»</h2>
       <div class="prop card zoom" data-b="3">
-        <div class="k">Пропоную</div>
+        <div class="k">Пропозиції</div>
         <ol class="plist">
-          <li><span><b>Тематика досліджень</b> – від запиту спроможностей</span></li>
-          <li><span><b>Оцінка науки</b> – за рішеннями, перевіреними на практиці</span></li>
+          <li><span><b>Теми досліджень</b> – від конкретних потреб війська</span></li>
+          <li><span><b>Оцінка</b> – за рішеннями, перевіреними у військах</span></li>
         </ol>
       </div>
-      <div class="vs" data-b="3">
-        <div class="was"><small>Ризик</small><b>Паралельний контур</b>, кількість звітів</div>
-        <div class="will"><small>Мета</small><b>Частина розвитку</b> Сил оборони</div>
+      <div class="vs vsbig" data-b="4">
+        <div class="was"><small>Не перевірено у війську</small><b>Гіпотеза</b></div>
+        <div class="will"><small>Перевірено у війську</small><b>Відповідь</b></div>
       </div>
+      <div class="tk tkr" data-b="5"><span>Висновок</span><p>Поки рішення не перевірили у війську, це ще гіпотеза, а не відповідь.</p></div>
     </div>
     <div class="card" style="flex:1;padding:10px" data-b="2">
       <div class="cyc" id="cyc">
@@ -809,7 +822,7 @@ body.mob .lfab svg{width:18px;height:18px}
         <div class="cnode" data-c="0" style="left:50%;top:13%"><span class="n">1</span><b>Виявили проблему</b></div>
         <div class="cnode" data-c="1" style="left:84%;top:38%"><span class="n">2</span><b>Дослідили</b></div>
         <div class="cnode" data-c="2" style="left:71%;top:84%"><span class="n">3</span><b>Знайшли рішення</b></div>
-        <div class="cnode g" data-c="3" style="left:29%;top:84%"><span class="n">4</span><b>Перевірили на практиці</b></div>
+        <div class="cnode g" data-c="3" style="left:29%;top:84%"><span class="n">4</span><b>Перевірили у військах</b></div>
         <div class="cnode" data-c="4" style="left:16%;top:38%"><span class="n">5</span><b>Вдосконалюємо</b></div>
         <div class="ccenter" id="ccenter"></div>
       </div>
@@ -820,31 +833,31 @@ body.mob .lfab svg{width:18px;height:18px}
 <!-- 9 · MEASURE -->
 <section class="slide" id="s9" data-name="Результат">
   <div class="head"><span class="where">Як міряти результат</span><span class="lbl">Підготовка · Освіта · Наука</span></div>
-  <h2 class="title">Міряти спроможності, а не години</h2>
+  <h2 class="title">Міряти не зусилля, а результат</h2>
   <div class="m3 grow" style="margin-top:14px" data-b="1">
     <div class="flip" data-f="0"><div class="in3">
       <div class="face fr"><small>Міряємо зараз</small><h3>Години в аудиторії</h3><div class="turn">Натисніть ↻</div></div>
-      <div class="face bk"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 6 6 1-4.5 4 1 6.5L12 16l-5.5 3.5 1-6.5L3 9l6-1z"/></svg></span><small>Міряти</small><h3>Спроможності на виході</h3><p>Що людина вміє після курсу.</p></div>
+      <div class="face bk"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 6 6 1-4.5 4 1 6.5L12 16l-5.5 3.5 1-6.5L3 9l6-1z"/></svg></span><small>Міряти</small><h3>Спроможності на виході</h3><p>Що випускник реально здатен робити.</p></div>
     </div></div>
     <div class="flip" data-f="1"><div class="in3">
-      <div class="face fr"><small>Міряємо зараз</small><h3>Витрати як такі</h3><div class="turn">Натисніть ↻</div></div>
-      <div class="face bk"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M15 9.5c-.5-1-1.6-1.5-3-1.5-1.7 0-3 .8-3 2s1.3 1.7 3 2 3 .8 3 2-1.3 2-3 2c-1.4 0-2.5-.5-3-1.5M12 6v2M12 16v2"/></svg></span><small>Міряти</small><h3>Кожну гривню</h3><p>Наскільки розумно витрачено кожну гривню на підготовку.</p></div>
+      <div class="face fr"><small>Міряємо зараз</small><h3>Звіти й публікації</h3><div class="turn">Натисніть ↻</div></div>
+      <div class="face bk"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.8 2.8L16.5 9.5"/></svg></span><small>Міряти</small><h3>Перевірені рішення</h3><p>Що пройшло практичну перевірку у військах.</p></div>
     </div></div>
     <div class="flip" data-f="2"><div class="in3">
-      <div class="face fr"><small>Міряємо зараз</small><h3>Освіта окремо від кар'єри</h3><div class="turn">Натисніть ↻</div></div>
-      <div class="face bk"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span><small>Міряти</small><h3>Утримання людей</h3><p>Людина залишається там, де бачить, як вона росте.</p></div>
+      <div class="face fr"><small>Міряємо зараз</small><h3>Хто пройшов навчання</h3><div class="turn">Натисніть ↻</div></div>
+      <div class="face bk"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span><small>Міряти</small><h3>Утримання людей</h3><p>Чи зберігає система сильних фахівців.</p></div>
     </div></div>
   </div>
-  <div class="band" style="margin-top:20px" data-b="5"><p>Український бойовий досвід уже став джерелом знань для союзників. Завдання – щоб він так само швидко доходив до наших курсантів.</p></div>
+  <div class="band" style="margin-top:20px" data-b="5"><p>Наш бойовий досвід уже допомагає навчати союзників. Він має так само швидко доходити до наших курсантів.</p></div>
 </section>
 
-<!-- 10 · FINAL -->
-<section class="slide" id="s10" data-name="Фінал">
+<!-- 11 · FINAL -->
+<section class="slide" id="s11" data-name="Фінал">
   <div class="fin">
     <p class="a">Сильна особистість здатна змінити багато.</p>
     <p class="b">Але сильна система робить сильнішим ціле покоління.</p>
     <div class="c">
-      <div><b>Не наздоганяти війну – передбачати її.</b><br>Довіра · Швидкість · Потенціал · Мобільність · Наука</div>
+      <div><b>Не наздоганяти війну. Передбачати її.</b><br>Довіра · Швидкість · Потенціал · Мобільність · Наука</div>
       <div class="thx">Дякую</div>
     </div>
   </div>
@@ -859,7 +872,7 @@ body.mob .lfab svg{width:18px;height:18px}
 <script>
 /* ===== full submitted motivational letter (verbatim) ===== */
 const LETTER=[{"k": "lead", "t": "Військова освіта не повинна наздоганяти війну. Вона повинна передбачати її."}, {"k": "p", "t": "Саме так я розумію завдання військової освіти і науки – не як сукупність програм, курсів і дипломів, а як один із ключових механізмів розвитку бойової спроможності Сил оборони."}, {"k": "p", "t": "У 2004 році я розпочав службу у розвідці 95-ї окремої аеромобільної бригади. Пройшов шлях від солдата і сержанта до командира, штабного офіцера та офіцера міжнародних структур. Воював із 2014 року, отримав офіцерське звання під час виконання бойових завдань, а в період повномасштабного вторгнення – готував військовослужбовців і працював на оперативному та стратегічному рівнях. За ці роки я був не лише тим, кого навчали. Я навчав, командував, відповідав за підготовку, працював у багатонаціональних штабах і спостерігав, як різні системи формують військового професіонала. KFOR, LITPOLUKRBRIG, підготовка у США, навчання у Британії та модуль у Кремнієвій Долині дозволили побачити військову освіту з різних боків – від солдата до рівня міністерств та ОПУ."}, {"k": "p", "t": "ACSC і KCL стали не просто наступним етапом освіти, а можливістю подивитися на власний досвід крізь іншу інституційну оптику. Навчання разом із представниками п'ятдесяти країн і отримані відзнаки підтвердили не стільки особистий результат, скільки цінність середовища, яке змушує мислити ширше за межі власної посади та власної армії. Саме порівняння цих систем переконало мене: Україні не потрібно копіювати чужі моделі. Нам потрібна власна система, яка поєднає найкраще з НАТО, український бойовий досвід, науковий потенціал і темп сучасної війни."}, {"k": "p", "t": "Україна вже створила важливу основу для цього. Запроваджено багаторівневу систему професійної військової освіти L1–L5, розвивається принцип безперервної освіти протягом військової кар'єри, посилюється взаємодія з НАТО. Сьогодні питання вже не лише в тому, щоб побудувати правильну архітектуру. Питання в тому, наскільки швидко ця архітектура здатна навчатися, змінюватися і перетворювати досвід на реальні спроможності."}, {"k": "p", "t": "Саме тут я бачу свою мотивацію і свою потенційну роль."}, {"k": "p", "t": "Я хочу працювати над системою, у якій розвиток військового професіонала безпосередньо пов'язаний із розвитком спроможностей Сил оборони."}, {"k": "p", "t": "Для мене це починається з <b>культури довіри та делегування.</b> Сильний сержант не є конкурентом офіцеру. Він його найближчий професійний партнер. Відповідальність має рухатися вгору, а повноваження – вниз настільки далеко, наскільки це дозволяють компетентність, обстановка і, звісно, довіра. Таку філософію неможливо сформувати одним наказом. Вона має послідовно проходити через освіту всіх категорій військовослужбовців – від базової підготовки та сержантських курсів до оперативного і стратегічного рівнів."}, {"k": "p", "t": "Друге – це <b>швидкість перетворення бойового досвіду на знання.</b> Війна змінюється швидше, ніж документи. Доктрина потрібна для кодифікації досвіду, але не може бути єдиним каналом його передачі. Ми маємо швидше залучати бойових офіцерів і сержантів до навчання наступного покоління – через викладання, наставництво, розбір кейсів і професійні дискусії. Люди передають досвід швидше, ніж система встигає його формалізувати."}, {"k": "p", "t": "Третє – зробити військову освіту <b>системою раннього виявлення й цілеспрямованого розвитку професійного потенціалу</b> Сил оборони. Освіта має не лише передавати знання, а й виявляти тих, хто здатен брати складніші завдання, і будувати для них відповідні траєкторії розвитку."}, {"k": "p", "t": "Для цього потрібне значно краще розуміння того, які компетентності вже є в Силах оборони, яких критично бракує, які розвивати всередині, а які – залучати ззовні. Освіта, цивільний досвід, мови, науково-технічні компетентності, військова спеціалізація, бойовий досвід і здатність працювати в нових середовищах мають розглядатися як елементи майбутньої спроможності. Тоді військова освіта перестає бути лише етапом кар'єри і стає інструментом свідомого формування командного, штабного, наукового та інструкторського корпусу. Ми маємо не просто навчати тих, кого направили на курс, а розуміти, яких професіоналів потребуватимуть Сили оборони через п'ять, десять і двадцять років – і вже сьогодні створювати умови для їх появи."}, {"k": "p", "t": "Четверте – змінити підхід до <b>накопичення та поширення експертизи.</b> Сильний фахівець не повинен бути «власністю» конкретної посади, військової частини чи навіть окремої установи. Якщо його неможливо відпустити на навчання, викладання, міжнародну посаду, наукову роботу чи до іншого середовища, це означає, що система ризикує втрачати не лише людину, а й можливість поширити її знання."}, {"k": "p", "t": "Тому професійна мобільність, викладання, міжнародний досвід, наукова робота та участь у розвитку доктрини мають стати механізмами поширення спроможностей по системі. Завдання військової освіти – не лише підготувати офіцера чи сержанта, а й забезпечити, щоб його знання поверталися в систему і ставали інституційною спроможністю. Наступництво важливе не лише на посадах, а насамперед у компетентностях. Система не має залежати від кількох людей, які знають «як це працює», – вона має постійно готувати нових носіїв критичних знань, викладачів і наставників, підтримувати професійні спільноти й передавати досвід між поколіннями."}, {"k": "p", "t": "Окремо бачу роль <b>військової науки.</b> Наукова робота в обороні має починатися не з питання, що ми можемо дослідити, а з питання, яку проблему спроможності треба вирішити. Потрібен простий замкнений цикл:"}, {"k": "cycle", "t": "виявили проблему → дослідили → знайшли рішення → перевірили на практиці → вдосконалюємо"}, {"k": "p", "t": "Тоді наука перестає бути паралельним контуром і стає частиною механізму розвитку Сил оборони. Це підводить мене до головного: розвиток людей, знань і науки – не окремі функції від бойової спроможності, а її основа."}, {"k": "p", "t": "Я бачив, як сильні підрозділи трималися на кількох людях, які ставали незамінними. Бачив, що відбувається, коли такі люди вибувають. І бачив інший підхід – коли довіра, делегування, підготовка наступників і постійне оновлення знань є частиною самої системи."}, {"k": "p", "t": "Сильна армія – це не армія, де кілька людей знають і можуть усе. Це армія, яка постійно формує нових професіоналів, поширює критичні знання, вчиться на власному досвіді, розвиває науку і здатна швидко перетворювати нові знання на військову спроможність."}, {"k": "p", "t": "Мій професійний шлях привів мене від солдата, якого навчали виконувати завдання, до офіцера, який відповідав за підготовку інших, і далі до роботи на стратегічному та міжнародному рівнях. Сьогодні я хочу застосувати цей досвід не лише для виконання чергового завдання, а для розвитку системи, яка буде готувати наступне покоління українських військових і одночасно вчитися разом із війною."}, {"k": "p", "t": "Я пройшов цю систему знизу догори. Тепер хочу допомогти їй стати такою, щоб наступним поколінням не доводилося вчитися всьому ціною власних помилок. Не берегти людей від системи. Побудувати систему, яка береже, розвиває і примножує людський та інтелектуальний капітал."}, {"k": "kick", "t": "Саме в цьому я бачу не лише свою мотивацію до участі в конкурсі, а й сенс усього професійного шляху: ставати сильнішим самому і робити сильнішою систему, яка готує тих, хто прийде після нас. Бо сильна особистість здатна змінити багато. Але сильна система робить сильнішим ціле покоління."}, {"k": "sign", "t": "З повагою,<br><b>підполковник Магльований Сергій Іванович</b>"}];
-const LMAP={s0:[0],s1:[0,1],s2:[2,3,18,19],s3:[4],s4:[7],s5:[8],s6:[9,10],s7:[11,12,16],s8:[13,14,15],s9:[17],s10:[20]};
+const LMAP={s0:[0],s1:[0,1],s2:[2,3,18,19],s3:[4],s4:[7],s5:[8],s6:[9,10],s7:[11,12,16],s8:[13,14,15],s9:[17],s11:[20]};
 /* ===== (legacy) =====*/
 const M=[
  {w:'Рішення 1 · з мотиваційного листа',t:'Культура довіри та делегування',b:`<p>Сильний сержант не є конкурентом офіцеру. Він його найближчий професійний партнер. Відповідальність має рухатися вгору, а повноваження – вниз настільки далеко, наскільки це дозволяють компетентність, обстановка і, звісно, довіра.</p><p>Таку філософію неможливо сформувати одним наказом. Вона має послідовно проходити через освіту всіх категорій військовослужбовців – від базової підготовки та сержантських курсів до оперативного і стратегічного рівнів.</p>`},
@@ -879,12 +892,12 @@ addEventListener('resize',fit);fit();
 
 /* ===== S2 path data ===== */
 const RUNG=[
- {t:'Той, кого навчали',st:'11 років',dk:'11 років',dks:'2004–2016 · сержантський корпус',d:'Від строковика-розвідника <b>95-ї окремої аеромобільної бригади</b> – через усі сержантські посади – до <b>головного старшини бригади</b>. Офіцерське звання – з бойового досвіду.'},
- {t:'Той, хто навчав',st:'20 000+',dk:'20 000+',dks:'INTERFLEX',d:'Організація підготовки <b>понад 20 тисяч</b> військовослужбовців разом із партнерами у Великій Британії та Франції. Керівник міжнародної робочої групи з розробки навчальних публікацій. <b>Система відбору кандидатів</b> на підготовку.'},
- {t:'Той, хто працював у коаліції',st:'KFOR · LITPOLUKRBRIG',dk:'Коаліція',dks:'KFOR · LITPOLUKRBRIG',d:'Багатонаціональні штаби і планування з союзниками. Порівняння систем переконало: <b>Україні не потрібно копіювати чужі моделі – потрібна власна.</b>'},
- {t:'Той, хто вчився в найкращих',st:'ACSC · KCL',dk:'ACSC · KCL',dks:'США · Британія',d:'Військова освіта у США та Британії. ACSC – <b>Thales Prize, Top International Student</b>. MSc Defence Innovation, King’s College London.'},
- {t:'Той, хто бачить, як ухвалюються рішення',st:'МО · ОПУ',dk:'МО · ОПУ',dks:'Рівень політики',d:'Помічник заступника Міністра оборони і Спецуповноваженого Президента, нині – міжнародне оборонне співробітництво: <b>як рішення проходить шлях від ідеї до наказу – і де воно застрягає.</b>'},
- {t:'Той, хто відповідає за систему',st:'Наступний рівень',dk:'Наступний рівень',dks:'Директор',d:'Кожна з попередніх ролей – <b>«замовник» військової освіти</b>. Я знаю, що система дає на виході і чого їй бракує. Тепер – відповідати за результат.',next:true}
+ {t:'Той, кого навчали',st:'11 років',dk:'11 років',dks:'2004–2016 · сержантський корпус',d:'Від строковика-розвідника 95-ї бригади – до <b>головного старшини бригади</b>. Офіцерське звання – з бойового досвіду.'},
+ {t:'Той, хто навчав',st:'20 000+',dk:'20 000+',dks:'INTERFLEX',d:'Підготовка <b>понад 20 тисяч</b> військовослужбовців із партнерами у Британії та Франції. Навчальні публікації. <b>Система відбору кандидатів.</b>'},
+ {t:'Той, хто служив у міжнародних штабах',st:'Міжнародні штаби',dk:'Міжнародні штаби',dks:'Різних рівнів',d:'Міжнародні штаби різних рівнів – від KFOR і LITPOLUKRBRIG до інших. Висновок: <b>не копіювати чужі моделі – будувати власну.</b>'},
+ {t:'Той, хто вчився в партнерів',st:'ACSC · KCL',dk:'ACSC · KCL',dks:'США · Британія',d:'ACSC – <b>Thales Prize, Top International Student</b>. MSc Defence Innovation, King’s College London.'},
+ {t:'Той, хто бачить, як ухвалюються рішення',st:'МО · ОПУ',dk:'МО · ОПУ',dks:'Рівень політики',d:'Від помічника заступника Міністра і Спецуповноваженого Президента до оборонного співробітництва. Досвід того, <b>де рішення застрягає на шляху до наказу.</b>'},
+ {t:'Внесок у систему',st:'Наступний крок',dk:'Наступний крок',dks:'Спільна робота',d:'Кожна з цих ролей була <b>«замовником» військової освіти</b>. Звідси – розуміння, чого їй бракує на виході, і бажання допомогти це змінити.',next:true}
 ];
 const stairs=document.getElementById('stairs'),detail=document.getElementById('detail');
 stairs.innerHTML=RUNG.map((r,i)=>`<div class="rung${r.next?' next':''}" data-b="${i+1}" data-r="${i}" style="height:${206+i*36}px"><span class="n">${i+1}</span><h4>${r.t}</h4><div class="st">${r.st}</div></div>`).join('');
@@ -920,7 +933,7 @@ function delegDemo(on){tgTimers.forEach(clearTimeout);tgTimers=[];
 function delegFull(){tgTimers.forEach(clearTimeout);tgs.forEach(t=>t.classList.add('on'));paintAuth();}
 
 /* ===== S5 lanes ===== */
-const LA=['Фронт','Узагальнення','Доктрина','Програма','Аудиторія'],LB=['Фронт','Бойовий офіцер / сержант','Аудиторія'];
+const LA=['Фронт','Узагальнення','Доктрина','Програма','Аудиторія'],LB=['Фронт','Бойовий викладач','Аудиторія'];
 function buildRail(id,arr){const r=document.getElementById(id);
  r.innerHTML=arr.map((t,i)=>`<span class="lnode${i===arr.length-1?' end':''}" style="left:${i/(arr.length-1)*100}%">${t}</span>`).join('');}
 buildRail('railA',LA);buildRail('railB',LB);
